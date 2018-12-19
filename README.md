@@ -4,7 +4,8 @@ Website detailing the challenges for the Applied Games course (`INFOB3APGA`) at 
 The challenges are listed with a leaderboard, showing the the scores of the students.
 
 ## Installation
-This website is built on the CodeIgniter framework. For CodeIgniter related documentation, see [here](https://www.codeigniter.com/user_guide/)
+This website is built on the CodeIgniter framework. For CodeIgniter related documentation, see [here](https://www.codeigniter.com/user_guide/).
+
 CodeIgniter is a PHP framework. PHP support is therefore is prerequisite for your server.
 
 The website can be placed on the server almost directy. You should have the following file tree:
