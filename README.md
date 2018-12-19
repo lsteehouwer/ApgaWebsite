@@ -4,7 +4,7 @@ Website detailing the challenges for the Applied Games course (`INFOB3APGA`) at 
 The challenges are listed with a leaderboard, showing the the scores of the students.
 
 ## Installation
-This website is built on the CodeIgniter framework. For CodeIgniter related documentation, see [https://www.codeigniter.com/user_guide/](here).
+This website is built on the CodeIgniter framework. For CodeIgniter related documentation, see [here](https://www.codeigniter.com/user_guide/)
 CodeIgniter is a PHP framework. PHP support is therefore is prerequisite for your server.
 
 The website can be placed on the server almost directy. You should have the following file tree:
@@ -44,15 +44,15 @@ Declare in the config file what the `base_url` of the website should be. This UR
 
 An example `base_url` would be `$config["base_url"] = "https://www.applied_games.com/public"`;
 
-The standard provided database is an SQLite3 database. In order to work with this database your server's PHP installation needs to have its SQLite driver enabled. You can activate this driver in the `php.ini` file. For further details, see [https://wiki.archlinux.org/index.php/PHP#Sqlite](here).
+The standard provided database is an SQLite3 database. In order to work with this database your server's PHP installation needs to have its SQLite driver enabled. You can activate this driver in the `php.ini` file. For further details, see [here](https://wiki.archlinux.org/index.php/PHP#Sqlite).
 
 The standard configuration for the database should work 'out of the box', but in case there are problems, check the configuration for the database at `application/config/database.php`.
 
 ## News 
-In order to keep the students up to date with the latest developments regarding their grades, the main page has a little news section. These news items are to be added manually, by editing the source for the main page. The main page's source code can be found here: ` application/views/hoofdranking.php`. Make use of CodeIgniter's `site_url()` method to generate links to other pages of the website. For documentation regarding this function, see: [https://www.codeigniter.com/user_guide/helpers/url_helper?highlight=site_url#site_url](here).
+In order to keep the students up to date with the latest developments regarding their grades, the main page has a little news section. These news items are to be added manually, by editing the source for the main page. The main page's source code can be found here: ` application/views/hoofdranking.php`. Make use of CodeIgniter's `site_url()` method to generate links to other pages of the website. For documentation regarding this function, see: [here](https://www.codeigniter.com/user_guide/helpers/url_helper?highlight=site_url#site_url)
 
 ## Technical Details
-The standard provided database is an SQLite3 database, but this can easily be substituted. See [https://www.codeigniter.com/user_guide/database/configuration.html](here).
+The standard provided database is an SQLite3 database, but this can easily be substituted. See [here](https://www.codeigniter.com/user_guide/database/configuration.html)
 
 Only 3 tables are used for this website: `student`, `challenge`, and `submission`.
 
