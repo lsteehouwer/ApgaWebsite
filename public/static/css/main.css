@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans");
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+}
+
+@media screen and (max-width: 1299px) {
+  body {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  body {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  background-image: url("../img/background.png");
+  background-color: rgba(108, 122, 137, 0.9);
+  background-attachment: fixed;
+  background-position: top left;
+  color: #222;
+  font-family: 'Open Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  display: block;
+  margin: 0;
+  padding: 2rem 3rem 1rem 3rem;
+  background: #fefefe;
+}
+
+header > * {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+}
+
+nav {
+  display: block;
+  margin: 0;
+  padding: 0 2rem 0 2rem;
+  background: #fefefe;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  background: #fefefe;
+  border-bottom: 2px solid #222;
+}
+
+nav ul li:hover {
+  background: #d2d7d3;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  display: block;
+  position: relative;
+  flex: 1;
+}
+
+nav > ul > li > ul {
+  display: none;
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  width: 100%;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+  box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+nav > ul > li:hover > ul {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 0;
+  }
+  nav > ul {
+    display: block;
+  }
+  nav > ul > li:hover > ul {
+    display: none;
+  }
+}
+
+main {
+  display: block;
+  margin: 0;
+  padding: 2rem 3rem 2rem 3rem;
+  background: #fefefe;
+  word-wrap: break-word;
+}
+
+main > *:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    padding: 2rem 1rem 2rem 1rem;
+  }
+}
+
+footer {
+  display: block;
+  margin: 0;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+  background: rgba(108, 122, 137, 0.9);
+  color: #fefefe;
+  font-size: .75rem;
+  line-height: 1rem;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer p {
+  margin: .75rem 0;
+}
+
+footer p:first-child {
+  margin: 0;
+}
+
+footer img {
+  display: block;
+  width: 100%;
+}
+
+footer > div {
+  padding: 0 2rem 0 2rem;
+}
+
+footer > div:first-child {
+  padding-left: 0;
+}
+
+footer > div:last-child {
+  padding-right: 0;
+}
+
+#footerLogo {
+  flex-grow: .5;
+  flex-basis: .5;
+  flex-shrink: .5;
+}
+
+#footerLogo > img {
+  max-width: 16rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul, ol {
+  display: block;
+  margin: 1.5rem 0;
+  padding: 0 0 0 3rem;
+  line-height: 1.75rem;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+  margin: 0;
+}
+
+table {
+  display: block;
+  width: 100%;
+}
+
+table thead, table tbody {
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #222;
+}
+
+table tr {
+  display: flex;
+  background: #fefefe;
+}
+
+table tr:nth-child(even) {
+  background: #d2d7d3;
+}
+
+table tr td, table tr th {
+  display: block;
+  flex: 1 1;
+  margin: 0;
+  padding: .5rem;
+}
+
+table tr td.alpha, table tr th.alpha {
+  text-align: left;
+}
+
+table tr td.numeric, table tr th.numeric {
+  text-align: right;
+}
+
+table tr td.rank, table tr th.rank {
+  flex: 2 1;
+}
+
+table tr td.username, table tr th.username {
+  flex: 85 85;
+}
+
+table tr td.score, table tr th.score {
+  flex: 15 15;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 100%;
+}
+
+.flexContainerElement {
+  flex: 1;
+  align-self: center;
+}
+ 
+
+ /*# sourceMappingURL= main.css.map */

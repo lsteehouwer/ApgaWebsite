@@ -1,0 +1,46 @@
+table {
+    display: block;
+    width: 100%;
+
+    & thead, & tbody {
+        display: block;
+        width: 100%;
+        border-bottom: 2px solid $black;
+    }
+
+    & tr {
+        display: flex;
+        background: $white;
+
+        &:nth-child(even) {
+            background: $lightGrey;
+        }
+        
+        & td, & th {
+            display: block;
+            flex: 1 1;
+            margin: 0;
+            padding: .5rem;
+
+            &.alpha {
+                text-align: left;
+            }
+
+            &.numeric {
+                text-align: right;
+            }
+
+            &.rank {
+                flex: 2 1;
+            }
+
+            &.username {
+                flex: 85 85;
+            }
+
+            &.score {
+                flex: 15 15;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+$contentPaddingLeft: 3rem;
+$contentPaddingRight: 3rem;
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+}
+
+@media screen and (max-width: 1299px) {
+    body {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+}
+
+@media screen and (max-width: 1099px){
+    body {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

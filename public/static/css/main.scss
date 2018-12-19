@@ -1,0 +1,19 @@
+// variable collections
+@import './partials/_colors.scss';
+@import './partials/_widthControl.scss';
+
+// unique element styling
+@import './partials/_body.scss';
+@import './partials/_header.scss';
+@import './partials/_nav.scss';
+@import './partials/_main.scss';
+@import './partials/_footer.scss';
+
+// generic element styling
+@import './partials/_headings.scss';
+@import './partials/_lists.scss';
+@import './partials/_tables.scss';
+@import './partials/_paragraphs.scss';
+
+// special classes styling
+@import './partials/_flex.scss';

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    background-image: url("../img/background.png");
+    background-color: $darkGrey;
+    background-attachment: fixed;
+    background-position: top left;
+    color: $black;
+    font-family: 'Open Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
